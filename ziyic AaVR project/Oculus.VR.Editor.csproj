@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{23BE8C22-AA14-ED49-4157-EAA87D6C2474}</ProjectGuid>
+    <ProjectGuid>{0CC73C16-AB2C-88FD-AAB5-690D1A2516A1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Oculus.VR.Editor</AssemblyName>
@@ -85,16 +85,16 @@
     <None Include="Assets\Oculus\VR\Editor\network_sec_config.xml" />
     <None Include="Assets\Oculus\VR\Editor\Oculus.VR.Editor.asmdef" />
     <Reference Include="UnityEditor.UI">
-      <HintPath>T:/New folder/ziyic VRAR project/ziyic VRAR project/New Unity Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>T:/AaVR/ziyic-AaVR/ziyic AaVR project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>T:/New folder/ziyic VRAR project/ziyic VRAR project/New Unity Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>T:/AaVR/ziyic-AaVR/ziyic AaVR project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>T:/New folder/ziyic VRAR project/ziyic VRAR project/New Unity Project/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>T:/AaVR/ziyic-AaVR/ziyic AaVR project/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>T:/New folder/ziyic VRAR project/ziyic VRAR project/New Unity Project/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>T:/AaVR/ziyic-AaVR/ziyic AaVR project/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -292,7 +292,7 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>T:/New folder/ziyic VRAR project/ziyic VRAR project/New Unity Project/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>T:/AaVR/ziyic-AaVR/ziyic AaVR project/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -651,7 +651,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Oculus.VR.csproj">
-      <Project>{F8C8FCD8-A52F-2BFC-C21D-6A327FE443C4}</Project>
+      <Project>{4AC2F2F1-E5E1-1872-B811-4778068E2A24}</Project>
       <Name>Oculus.VR</Name>
     </ProjectReference>
   </ItemGroup>
