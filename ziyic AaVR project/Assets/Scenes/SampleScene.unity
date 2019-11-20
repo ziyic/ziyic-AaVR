@@ -805,6 +805,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pedestrian
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f55983ff255d2544d9774645de0152d1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: -6057140222963153312, guid: f55983ff255d2544d9774645de0152d1,
         type: 3}
       propertyPath: m_Controller
@@ -1448,6 +1453,13 @@ MonoBehaviour:
   - {fileID: 763046572}
   - {fileID: 614176236}
   - {fileID: 620131305}
+  route:
+  - {fileID: 14438163}
+  - {fileID: 1697372842}
+  - {fileID: 763046572}
+  - {fileID: 620131305}
+  targetWP: 5
+  routeNumber: 1
 --- !u!54 &1451984748
 Rigidbody:
   m_ObjectHideFlags: 0
