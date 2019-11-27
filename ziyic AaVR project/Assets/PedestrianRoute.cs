@@ -6,8 +6,9 @@ public class PedestrianRoute : MonoBehaviour
 {
     public List<Transform> wps;
     public List<Transform> route;
-    public float targetWP;
+    public int targetWP;
     public int routeNumber = 0;
+    float dist;
     // Start is called before the first frame update
     void Start()
     {
@@ -40,9 +41,31 @@ public class PedestrianRoute : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        
+        Vector3 displacement = route[targetWP].position - transform.position;
+        displacement.y = 0;
+        dist = displacement.magnitude;
+
+        if (dist < 0.1f)
+        {
+            targetWP++;
+            if (targetWP >= route.Count)
+            {
+                SetRoute();
+                return;
+            }
+        }
+
+        //calculate velocity for this frame
+        var velocity = displacement;
+        velocity.Normalize();
+        velocity *= 2.5f;//apply velocity
+        Vector3 newPosition = transform.position;
+        newPosition += velocity * Time.deltaTime;
+        Rigidbody rb = GetComponent<Rigidbody>();
+        rb.MovePosition(newPosition);
+
     }
 
     void SetRoute()

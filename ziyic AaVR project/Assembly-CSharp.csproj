@@ -385,31 +385,31 @@
     <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\ToyCubeWithOutline.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\CrosshairZCheat.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>T:/ziyic-AaVR/ziyic AaVR project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>T:/AaVR/ziyic-AaVR/ziyic AaVR project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>T:/ziyic-AaVR/ziyic AaVR project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>T:/AaVR/ziyic-AaVR/ziyic AaVR project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>T:/ziyic-AaVR/ziyic AaVR project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>T:/AaVR/ziyic-AaVR/ziyic AaVR project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>T:/ziyic-AaVR/ziyic AaVR project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>T:/AaVR/ziyic-AaVR/ziyic AaVR project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>T:/ziyic-AaVR/ziyic AaVR project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>T:/AaVR/ziyic-AaVR/ziyic AaVR project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>T:/ziyic-AaVR/ziyic AaVR project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>T:/AaVR/ziyic-AaVR/ziyic AaVR project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>T:/ziyic-AaVR/ziyic AaVR project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>T:/AaVR/ziyic-AaVR/ziyic AaVR project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>T:/ziyic-AaVR/ziyic AaVR project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>T:/AaVR/ziyic-AaVR/ziyic AaVR project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>T:/ziyic-AaVR/ziyic AaVR project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>T:/AaVR/ziyic-AaVR/ziyic AaVR project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/2019.2.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
