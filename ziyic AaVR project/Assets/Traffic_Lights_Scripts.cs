@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Timers;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,53 +8,78 @@ public class Traffic_Lights_Scripts : MonoBehaviour
     // Start is called before the first frame update
     bool VAccess = true;
 
-    float timer;
+    int time=0;
+    
+    public GameObject tl1g;
+    public GameObject tl1r;
+    public GameObject tl2g;
+    public GameObject tl2r;
+    public GameObject tl3g;
+    public  GameObject tl3r;
 
-    GameObject TL1=new GameObject();
-    GameObject TL2;
-    GameObject TL3;
+    private static Timer aTimer;
 
-    GameObject tl1g;
-    GameObject tl1r;
-    GameObject tl2g;
-    GameObject tl2r;
-    GameObject tl3g;
-    GameObject tl3r;
     void Start()
     {
-        TL1 = GameObject.Find("TL1");
-        TL1 = GameObject.Find("TL2");
-        TL1 = GameObject.Find("TL3");
+        
 
 
-        tl1g = TL1.transform.Find("Green light").gameObject;
-        tl1r = TL1.transform.Find("Red light").gameObject;
-        tl2g = TL2.transform.Find("Green light").gameObject;
-        tl2r = TL2.transform.Find("Red light").gameObject;
-        tl3g = TL3.transform.Find("Green light").gameObject;
-        tl3r = TL3.transform.Find("Red light").gameObject;
+        tl1g.SetActive(true);
+        tl1r.SetActive(true);
 
+        tl2g.SetActive(false);
+        tl2r.SetActive(false);
 
+        tl3g.SetActive(false);
+        tl3r.SetActive(false);
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        timer = Time.deltaTime;
-        route(VAccess);
+        int transcnt = 0;
+        time++;
+        if (time==72)
+        {
+            transcnt++;
+
+            if (transcnt%2==0)
+            {
+                uvaroute();
+            }
+            else if (transcnt % 2 == 1)
+            {
+                varoute();
+            }
+            time = 0;
+        }
     }
 
-    void route (bool va)
+    void varoute()
     {
-            tl1g.SetActive(!va);
-            tl1r.SetActive(va);
+            tl1g.SetActive(false);
+            tl1r.SetActive(true);
 
-            tl2g.SetActive(va);
-            tl2r.SetActive(!va);
+            tl2g.SetActive(true);
+            tl2r.SetActive(false);
 
-            tl3g.SetActive(va);
-            tl3r.SetActive(!va);
+            tl3g.SetActive(true);
+            tl3r.SetActive(false);
+
+    }
+
+    void uvaroute()
+    {
+        tl1g.SetActive(true);
+        tl1r.SetActive(false);
+
+        tl2g.SetActive(false);
+        tl2r.SetActive(true);
+
+        tl3g.SetActive(false);
+        tl3r.SetActive(true);
+
     }
 
 
