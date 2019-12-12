@@ -67,6 +67,7 @@ public class carGo : MonoBehaviour
                 SetRoute();
                 first = false;
                 stoped = false;
+                goc=false;
             }
             else return;
         }
